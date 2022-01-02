@@ -9,3 +9,5 @@ Utils.GetLocalVehiclePacket = Utils.Vehicle.GetLocalVehiclePacket
 Utils.Notification = require(Game.Notification)
 
 Utils.PlayerUtils = require(Game.PlayerUtils)
+
+return Utils
