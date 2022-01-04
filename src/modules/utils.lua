@@ -1,5 +1,6 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Game = ReplicatedStorage.Game
+local Module = ReplicatedStorage.Module
 
 local Utils = {}
 
@@ -9,5 +10,14 @@ Utils.GetLocalVehiclePacket = Utils.Vehicle.GetLocalVehiclePacket
 Utils.Notification = require(Game.Notification)
 
 Utils.PlayerUtils = require(Game.PlayerUtils)
+
+Utils.AlexRagdoll = require(Module.AlexRagdoll)
+Utils.Ragdoll = Utils.AlexRagdoll.Ragdoll
+
+Utils.DefaultActions = require(Game.DefaultActions)
+
+Utils.UI = require(Module.UI)
+
+Utils.MilitaryTurretConsts = require(Game.MilitaryTurret.MilitaryTurretConsts)
 
 return Utils
