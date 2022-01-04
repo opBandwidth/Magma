@@ -21,6 +21,6 @@ Utils.UI = require(Module.UI)
 Utils.MilitaryTurretConsts = require(Game.MilitaryTurret.MilitaryTurretConsts)
 
 Utils.RadioUtils = require(Game.Radio.RadioUtils)
-Utils.RadioConfig = require(Game.Radio.RadioConfig)
+Utils.RadioPlayer = require(Game.Radio.RadioPlayer)
 
 return Utils
