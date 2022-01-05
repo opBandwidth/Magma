@@ -13,5 +13,7 @@ getgenv().Magma = {
     ["Anti Ragdoll"] = false,
     ["Bypass Doors"] = false,
     ["No Crawl Cooldown"] = false,
-    ["No Wait"] = false
+    ["No Wait"] = false,
+
+    ["Infinite Fuel"] = false
 }
