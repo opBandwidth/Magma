@@ -23,4 +23,6 @@ Utils.MilitaryTurretConsts = require(Game.MilitaryTurret.MilitaryTurretConsts)
 Utils.RadioUtils = require(Game.Radio.RadioUtils)
 Utils.RadioPlayer = require(Game.Radio.RadioPlayer)
 
+Utils.JetPack = require(Game.JetPack.JetPack)
+
 return Utils
