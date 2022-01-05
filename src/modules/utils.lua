@@ -25,4 +25,8 @@ Utils.RadioPlayer = require(Game.Radio.RadioPlayer)
 
 Utils.JetPack = require(Game.JetPack.JetPack)
 
+Utils.SafesUI = require(Game.SafesUI)
+
+Utils.AlexChassis = require(Module.AlexChassis)
+
 return Utils
