@@ -4,6 +4,8 @@ local Module = ReplicatedStorage.Module
 
 local Utils = {}
 
+Utils.CharacterUtil = require(Game.CharacterUtil)
+
 Utils.Vehicle = require(Game.Vehicle)
 Utils.GetLocalVehiclePacket = Utils.Vehicle.GetLocalVehiclePacket
 
