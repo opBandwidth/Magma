@@ -1,6 +1,7 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Game = ReplicatedStorage.Game
 local Module = ReplicatedStorage.Module
+local Radio = Game.Radio
 local Item = Game.Item
 
 local Utils = {}
@@ -29,8 +30,8 @@ Utils.SafesUI = require(Game.SafesUI)
 
 Utils.Format = require(Module.Format)
 
-Utils.RadioUtils = require(Item.RadioUtils)
-Utils.RadioPlayer = require(Game.Radio.RadioPlayer)
+Utils.RadioUtils = require(Radio.RadioUtils)
+Utils.RadioPlayer = require(Radio.RadioPlayer)
 
 Utils.JetPack = require(Game.JetPack.JetPack)
 
