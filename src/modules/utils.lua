@@ -2,7 +2,6 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Game = ReplicatedStorage.Game
 local Module = ReplicatedStorage.Module
 local Radio = Game.Radio
-local Item = Game.Item
 
 local Utils = {}
 
@@ -35,11 +34,11 @@ Utils.RadioPlayer = require(Radio.RadioPlayer)
 
 Utils.JetPack = require(Game.JetPack.JetPack)
 
-Utils.Gun = require(Item.Gun)
-
-Utils.Flintlock = require(Item.Flintlock)
+Utils.Flintlock = require(Game.Item.Flintlock)
 
 Utils.RayCast = require(Module.RayCast)
+
+Utils.ItemSystem = require(Game.ItemSystem.ItemSystem)
 
 Utils.AlexChassis = require(Module.AlexChassis)
 
