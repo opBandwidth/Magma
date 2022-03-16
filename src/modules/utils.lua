@@ -7,18 +7,18 @@ local Utils = {}
 
 Utils.CharacterUtil = require(Game.CharacterUtil)
 
+Utils.Notification = require(Game.Notification)
+
 Utils.Vehicle = require(Game.Vehicle)
 Utils.GetLocalVehiclePacket = Utils.Vehicle.GetLocalVehiclePacket
 
-Utils.Notification = require(Game.Notification)
+Utils.Settings = require(ReplicatedStorage.Resource.Settings)
 
 Utils.UI = require(Module.UI)
 
 Utils.DefaultActions = require(Game.DefaultActions)
 
 Utils.ItemConfig = Game.ItemConfig
-
-Utils.PlayerUtils = require(Game.PlayerUtils)
 
 Utils.AlexRagdoll = require(Module.AlexRagdoll)
 Utils.Ragdoll = Utils.AlexRagdoll.Ragdoll
@@ -39,7 +39,5 @@ Utils.Flintlock = require(Game.Item.Flintlock)
 Utils.RayCast = require(Module.RayCast)
 
 Utils.ItemSystem = require(Game.ItemSystem.ItemSystem)
-
-Utils.AlexChassis = require(Module.AlexChassis)
 
 return Utils
